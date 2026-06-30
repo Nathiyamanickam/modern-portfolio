@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #050505;
+  color: white;
+  overflow-x: hidden;
+}
+
+.glow {
+  box-shadow: 0 0 20px cyan;
+}
+
+
+section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(6,182,212,0.1),
+      transparent 60%
+    );
+  pointer-events: none;
+}
+
