@@ -144,7 +144,7 @@ function Footer() {
               </a>
 
               <a
-                href="linkedin.com/in/nathiya-juniordeveloper"
+                href="https://linkedin.com/in/nathiya-juniordeveloper"
                 target="_blank"
                 rel="noreferrer"
                 className="

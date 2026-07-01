@@ -19,7 +19,7 @@ function Hero() {
       pb-14
       px-6
       md:px-10
-      lg:px-16
+      lg:px-20
       "
     >
       {/* Background Glow */}
