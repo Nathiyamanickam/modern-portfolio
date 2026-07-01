@@ -15,6 +15,9 @@ function Hero() {
       relative
       overflow-hidden
       bg-black
+      min-h-screen
+      flex
+      items-center
       pt-24
       pb-14
       px-6
@@ -26,7 +29,7 @@ function Hero() {
 
       <div className="absolute top-20 right-0 w-72 h-72 bg-cyan-500/5 blur-[100px]" />
 
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center w-full">
 
         {/* LEFT CONTENT */}
 
