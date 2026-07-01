@@ -74,6 +74,7 @@ function About() {
 
             <a
               href="/certificates/certificate.pdf"
+               target="_blank"
               className="
                 flex items-center justify-center gap-3
                 px-7 py-4
