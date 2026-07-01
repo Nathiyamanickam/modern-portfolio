@@ -11,7 +11,7 @@ function About() {
   return (
     <section
       id="about"
-      className="py-24 px-6 sm:px-10 lg:px-16 max-w-7xl mx-auto"
+      className="min-h-screen flex flex-col justify-center py-24 px-6 sm:px-10 lg:px-16 max-w-7xl mx-auto"
     >
       {/* Section Heading */}
       <motion.div

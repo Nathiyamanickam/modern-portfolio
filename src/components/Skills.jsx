@@ -63,7 +63,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="py-24 px-6 max-w-7xl mx-auto"
+      className="min-h-screen flex flex-col justify-center py-24 px-6 max-w-7xl mx-auto"
     >
       {/* Heading */}
       <motion.div
